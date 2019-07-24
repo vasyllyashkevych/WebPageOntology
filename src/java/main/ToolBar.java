@@ -336,8 +336,12 @@ public class ToolBar extends JFrame  {
             
         initComponents();
     }
-    
-    
+
+
+    public static void main() {
+        main();
+    }
+
     public static void main(String args[]) {
         ToolBar tb = new ToolBar();
         tb.setDefaultCloseOperation(EXIT_ON_CLOSE);
